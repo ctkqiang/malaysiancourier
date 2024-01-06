@@ -1,0 +1,39 @@
+{
+    "name": "courier-malaysia",
+    "version": "1.1.2",
+    "description": "Just a package for tracing parcel in Malaysia",
+    "main": "application.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./application.js",
+        "demo": "nodemon ./demo/demo.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["malaysia, parcel, courier"],
+    "author": "John Melody Me<johnmelodyme@yandex.com>(johnmelodyme.github.io/)",
+    "url": "https://github.com/johnmelodyme/malaysian-courier/issues",
+    "emai": "johnmelodyme@yandex.com",
+    "license": "MIT License",
+    "dependencies": {
+        "axios": "^0.22.0",
+        "cheerio": "^1.0.0-rc.10",
+        "jquery": "^3.6.0",
+        "jsdom": "^17.0.0",
+        "nodemon": "^2.0.13",
+        "pretty": "^2.0.0",
+        "request": "^2.88.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/johnmelodyme/malaysian-courier.git"
+    },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://www.buymeacoffee.com/johnmelodymel"
+        }, {
+            "type": "patreon",
+            "url": "https://www.patreon.com/johnmelodyme"
+        }
+    ]
+}
