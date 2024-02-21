@@ -15,7 +15,7 @@
     "emai": "johnmelodyme@yandex.com",
     "license": "MIT License",
     "dependencies": {
-        "axios": "^0.22.0",
+        "axios": "^0.28.0",
         "cheerio": "^1.0.0-rc.10",
         "jquery": "^3.6.0",
         "jsdom": "^17.0.0",
